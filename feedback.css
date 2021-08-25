@@ -1,0 +1,125 @@
+.textnav{color: blue; text-align: left;font-family: cursive}
+            li a{display: block
+                ; text-align: left;
+                color: white;
+                padding: 15px;
+                text-decoration: none}
+            ul{list-style-type: none;
+               padding: 0;
+                margin: 0;
+                background-color: white;
+                font-size: 18px;
+            }
+            li a:active{background-color: gray}
+            li a:hover{background-color: blue}
+            li{float: left}
+.fieldnav{border-radius: 5px;border-color: black ; background-color: black}
+body{background-image: url(Forest.jpg) ;}
+.divbody{
+ width: 50%;
+    max-height: 50%;
+    background-color: aqua;
+    position: relative;
+    left: 25%;
+    opacity: 0.8;
+}
+.div-feed{
+    background-color: black;
+    width: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    opacity: 1;
+    
+}
+hr{width: 90%;
+    border-bottom: 3px solid black;
+    position: relative;
+    left: 1.5%
+}
+.divradio{position: relative;left: 37%;}
+.divlabel1{position: relative; left: 5%;width: 50%}
+input[type=text],input[type=number]{width: 70%; padding: 10px;margin: 5px 0 22px 0;display: inline-block;border: none;
+            border-radius: 9px ;background-color: white}
+input[type=text]:focus{background-color=white}
+.divlabel2{ width: 50% ;position: absolute;left: 58%;top: 29% }
+
+.divtextarea{width: 50%;position: relative ; left: 20%}
+.text{ 
+    background-color: white;
+    border: none;
+    color:black;
+    font-size: 18px;
+    margin-bottom:16px;
+    border-radius: 10px
+
+}
+.text:focus{background-color: #ddd}
+button{background-color: darkgreen;color: white;padding: 14px 20px;margin: 8px 0;border: none;cursor: pointer;width: 50%;opacity: 0.9;
+    border-radius: 8px; position: relative; left: 27%}
+        
+
+button:active{color: red}
+
+
+
+.footer-main-div{
+    width: 100%;
+    background-color:transparent;
+}
+.footer-social-icons{
+     width: 50%;
+    position: relative;
+    left: 34%;
+    background-color:transparent;
+}
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+     display: inline-block;
+      width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: transparent;
+}
+.footer-social-icons ul li a{
+    color: green;
+    font-size: 25px;
+}
+.footer-social-icons ul li a i{
+    line-height: 25px;
+}
+
+
+.lis:hover{background-color: darkgray;
+        border-radius: 50%;
+
+}
+.lis{
+    color: limegreen;
+    font-size: 25px;
+}
+.lia a i{
+     line-height: 50px;
+}
+.pow{
+    font-family: cursive;
+    color: antiquewhite;
+    font-size: 12px;
+   text-align: center;
+
+}
+
+
+

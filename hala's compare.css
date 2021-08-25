@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-color:#f2f2f2 ;
+    color: black;
+    font-size: 25px;
+   
+}
+.textnav{color: blue; text-align: left;font-family: cursive}
+            li a{display: block
+                ; text-align: left;
+                color: white;
+                padding: 15px;
+                text-decoration: none}
+            ul{list-style-type: none;
+               padding: 0;
+                margin: 0;
+                background-color: white;
+                font-size: 18px;
+            }
+            li a:active{background-color: gray}
+            li a:hover{background-color: blue}
+            li{float: left}
+.fieldnav{border-radius: 5px;border-color: black ; background-color: black}
+
+.elephants{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    max-width: 200px;
+}
+img{
+    height: 450px;
+    width: 680px;
+}
+.head{
+    font-size: 50px;
+    color: black;
+}
+.paragraph{
+    font-size: 25px
+}
+.elephants td, .elephants th {
+  border: 5px solid #f2f2f2;
+  padding: 0px;
+}
+
+.elephants tr:nth-child(odd){background-color: #FADEEA;}
+
+.elephants tr:hover {background-color:#F9CCEC;}
+
+.elephants th {
+  text-align: center;
+  background-color:#f2f2f2;
+  color: black;
+}
+.sizes{
+    font-size: 35px;
+    text-align: center;
+}
+.Tusks{
+    font-size: 35px;
+    text-align: center;
+}
+.footer-main-div{
+    width: 100%;
+    background-color:darkturquoise;
+}
+.footer-social-icons{
+     width: 50%;
+    position: relative;
+    left: 34%;
+    background-color:darkturquoise;
+}
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+     display: inline-block;
+      width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: transparent;
+}
+.footer-social-icons ul li a{
+    color: green;
+    font-size: 25px;
+}
+.footer-social-icons ul li a i{
+    line-height: 25px;
+}
+
+
+.lis:hover{background-color: darkgray;
+        border-radius: 50%;
+
+}
+.lis{
+    color: limegreen;
+    font-size: 25px;
+}
+.lia a i{
+     line-height: 50px;
+}
+.pow{
+    font-family: cursive;
+    color: blacka;
+    font-size: 12px;
+   text-align: center;
+
+}
